@@ -1,4 +1,6 @@
 .Dashboard-styles {
-    background-color: blue;
-    width: 50%;
+  background-color: blue;
+  width: 65%;
+  border: 5px solid #919191;
+  border-radius: 60px;
 }
