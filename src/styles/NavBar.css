@@ -1,0 +1,26 @@
+.nav-box {
+    padding: 25px;
+    padding-right: 50px;
+    display: flex;
+    position: relative;
+    right: 1.4px;
+    float: right;
+    gap: 50px;
+    border: none;
+    border-radius: 0 60px 0 10px;
+}
+
+.nav-box::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(220, 38, 211, 1), rgba(69, 20, 118, 1));
+  filter: blur(40px);   /* makes it hazy */
+  z-index: -1;          /* pushes it behind the nav links */
+  border-radius: 0 60px 0 10px;
+}
+
+.nav-box a{
+    text-decoration: none;
+    color: white;
+}

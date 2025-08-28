@@ -1,6 +1,7 @@
 .Dashboard-styles {
-  background-color: blue;
-  width: 65%;
-  border: 5px solid #919191;
+  background: rgb(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  width: 66%;
+  border: 0px solid #919191;
   border-radius: 60px;
 }
