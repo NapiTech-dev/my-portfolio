@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
+import ParentBox from "./components/layout/ParentBox";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <ParentBox />
+    </div>
+  );
+};
 
 export default App;
