@@ -1,0 +1,25 @@
+.skills-box {
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+  height: 30%;
+  color: white;
+  position: relative;
+}
+
+.skills-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(2, 62, 138, 0.4),
+    rgba(114, 9, 183, 1)
+  );
+  filter: blur(100px); /* makes it hazy */
+  z-index: -1;
+}
+
+.skills-title {
+    font-size: 23px;
+    font-weight: 500;
+}
