@@ -1,14 +1,23 @@
-import React from "react";
+import { useState } from "react";
 import "../styles/NavBar.css";
 
 function NavBar() {
+  const [active, setActive] = useState("about");
+
+  const links = ["About", "Resume", "Portfolio", "Blog", "Contact"];
+
   return (
     <div className="nav-box">
-      <a href="http://">About</a>
-      <a href="http://">Resume</a>
-      <a href="http://">Portfolio</a>
-      <a href="http://">Blog</a>
-      <a href="http://">Contact</a>
+      {links.map((link) => (
+        <a
+          key={link}
+          href={"#${link.tolowerCase()}"}
+          className={`nav-link ${active === link ? "active" : ""}`}
+          onClick={() => setActive(link)}
+        >
+          {link}
+        </a>
+      ))}
     </div>
   );
 }

@@ -1,26 +1,51 @@
 .nav-box {
-    padding: 25px;
-    padding-right: 50px;
-    display: flex;
-    position: relative;
-    right: 1.4px;
-    float: right;
-    gap: 50px;
-    border: none;
-    border-radius: 0 60px 0 10px;
-}
-
-.nav-box::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(220, 38, 211, 1), rgba(69, 20, 118, 1));
-  filter: blur(40px);   /* makes it hazy */
-  z-index: -1;          /* pushes it behind the nav links */
+  padding: 25px;
+  padding-right: 50px;
+  display: flex;
+  position: relative;
+  right: 1.4px;
+  float: right;
+  gap: 50px;
+  border: none;
   border-radius: 0 60px 0 10px;
 }
 
-.nav-box a{
-    text-decoration: none;
-    color: white;
+.nav-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(220, 38, 211, 1),
+    rgba(69, 20, 118, 1)
+  );
+  filter: blur(40px); /* makes it hazy */
+  z-index: -1; /* pushes it behind the nav links */
+  border-radius: 0 60px 0 10px;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  bottom: -3px; /* aligns at the bottom of the text */
+  width: 0%;
+  height: 2.5px; /* thickness of the line */
+  background-color: white; /* or any color you want */
+  transition: width 0.2s ease-in-out;
+  border: none;
+  border-radius: 20px;
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 50%; /* full underline */
 }
