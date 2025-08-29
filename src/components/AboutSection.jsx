@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import "../styles/AboutSection.css";
 
 const AboutSection = () => {
   return (
-    <div>AboutSection</div>
-  )
-}
+    <div className="about-styles">
+      <h2 className="about-title">About Me</h2>
+    </div>
+  );
+};
 
-export default AboutSection
+export default AboutSection;
