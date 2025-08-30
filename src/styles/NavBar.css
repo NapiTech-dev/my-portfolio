@@ -47,5 +47,5 @@
 
 .nav-link:hover::before,
 .nav-link.active::before {
-  width: 50%; /* full underline */
+  width: 50%;
 }

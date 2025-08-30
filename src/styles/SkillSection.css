@@ -1,4 +1,4 @@
-.skills-box {
+.skills-section {
   margin-top: 50px;
   padding: 0 50px 0 50px;
   height: 30%;
@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.skills-box::before {
+.skills-section::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -22,4 +22,25 @@
 .skills-title {
   font-size: 23px;
   font-weight: 500;
+}
+
+.skills-box {
+  margin-top: 20px;
+}
+
+.skill-box {
+  background-color: red;
+  display: flex;
+  padding: 23px;
+  justify-content:center;
+  gap: 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+.icon-background {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 70px;
 }
