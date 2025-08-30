@@ -7,6 +7,18 @@ function SkillSection() {
       title: "Web App",
       text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
     },
+    {
+      title: "Web App",
+      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+    },
+    {
+      title: "Web App",
+      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+    },
+    {
+      title: "Web App",
+      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+    },
   ];
 
   return (
