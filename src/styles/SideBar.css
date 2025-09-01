@@ -1,5 +1,6 @@
 .side-bar-styles {
-  width: 32%;
+  width: 28%;
+  height: 90vh;
   border: 5px solid #919191;
   border-radius: 60px;
 }

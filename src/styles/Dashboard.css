@@ -1,8 +1,9 @@
 .Dashboard-styles {
   background: rgb(0, 0, 0, 0.8);
   backdrop-filter: blur(50px);
-  width: 66%;
+  width: 70%;
   border: 0px solid #919191;
   border-radius: 60px;
   padding: 0 50px 70px 50px;
+  height: 110vh;
 }
