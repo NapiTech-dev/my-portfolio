@@ -5,19 +5,19 @@ function SkillSection() {
   const skills = [
     {
       title: "Web App",
-      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+      text: "I build scalable, efficient, and responsive web applications.",
     },
     {
       title: "UI/UX Design",
-      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+      text: "I design clean, modern, and intuitive user interfaces.",
     },
     {
       title: "Mobile App",
-      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+      text: "I create iOS & Android apps with seamless user experiences.",
     },
     {
       title: "IT Support",
-      text: "I build scalable, efficient, and responsive web applications using modern frameworks and best practices.",
+      text: "I provide reliable IT support and system optimization.",
     },
   ];
 
@@ -27,7 +27,9 @@ function SkillSection() {
       <div className="skills-box">
         {skills.map((skill, index) => (
           <div className="skill-box" key={index}>
-            <div className="icon-background"></div>
+            <div className="icon-background">
+              <span className="icon-itself"></span>
+            </div>
             <div className="skill-details">
               <div className="skill-title">{skill.title}</div>
               <div className="skill-text">{skill.text}</div>
