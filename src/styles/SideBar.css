@@ -1,6 +1,8 @@
 .side-bar-styles {
+  background: rgb(0, 0, 0, 0.8);
+  backdrop-filter: blur(50px);
   width: 28%;
   height: 90vh;
-  border: 5px solid #919191;
+  border: 2px solid #919191;
   border-radius: 60px;
 }
