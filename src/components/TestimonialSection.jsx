@@ -1,18 +1,38 @@
 import React from "react";
 import "../styles/TestimonialSection.css";
 
-const TestimonialSection = () => {
+function TestimonialSection() {
+  const testimonies = [
+    {
+      name: "Kofi",
+      summary:
+        "The best software developer I have ever worked with, I will recommend him to anyone",
+    },
+    {
+      name: "Kofi",
+      summary:
+        "The best software developer I have ever worked with, I will recommend him to anyone",
+    },
+  ];
+
   return (
     <div className="testimonial-section">
       <h2 className="testmony-title">Testimonials</h2>
       <div className="testimonies-box">
-        <div className="testimony-box">
-            <div className="tesimony-image-box"></div>
-            <div className=""></div>testimony-text-box
-        </div>
+        {testimonies.map((testimony) => (
+          <div className="testimony-box">
+            <div className="tesimony-image-box">
+                <div className="testimony-image-background"></div>
+            </div>
+            <div className="testimony-title">{testimony.name}</div>
+            <div className="testimony-details-box">
+              <p className="testimony-text">{testimony.summary}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
-};
+}
 
 export default TestimonialSection;

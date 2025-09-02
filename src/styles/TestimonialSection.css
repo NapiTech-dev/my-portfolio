@@ -1,6 +1,5 @@
 .testimonial-section {
   margin-top: 50px;
-  background-color: green;
   color: white;
   position: relative;
   height: 35vh;
@@ -12,8 +11,45 @@
 }
 
 .testimonies-box {
-  margin-top: 20px;
+  margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
+}
+
+.testimony-box {
+  background: rgb(255, 255, 255, 0.2);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 12px;
+  border: 2px solid #919191;
+  border-radius: 30px;
+}
+
+.tesimony-image-box {
+    background-color: yellow;
+}
+
+.testimony-image-background{
+    position: absolute;
+    bottom: 150px;
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.testimony-details-box {
+    background-color: red;
+}
+
+.testimony-title{
+    font-weight: 600;
+  font-size: 15px;
+}
+
+.testimony-text {
+    font-size: 13px;
 }
