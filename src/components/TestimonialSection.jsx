@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import "../styles/TestimonialSection.css";
 
 const TestimonialSection = () => {
   return (
-    <div>TestimonialSection</div>
-  )
-}
+    <div className="Testimonial-section">
+      <h2>Testimonial</h2>
+    </div>
+  );
+};
 
-export default TestimonialSection
+export default TestimonialSection;

@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar.jsx";
 import AboutSection from "./AboutSection.jsx";
 import SkillSection from "./SkillSection.jsx";
+import TestimonialSection from "./TestimonialSection.jsx"
 import "../styles/Dashboard.css";
 
 const Dashboard = () => {
@@ -10,6 +11,7 @@ const Dashboard = () => {
       <NavBar />
       <AboutSection />
       <SkillSection />
+      <TestimonialSection />
     </div>
   );
 };
