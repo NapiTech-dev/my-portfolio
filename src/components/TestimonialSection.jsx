@@ -5,13 +5,11 @@ function TestimonialSection() {
   const testimonies = [
     {
       name: "Kofi",
-      summary:
-        "The best software developer I have ever worked with, I will recommend him to anyone",
+      summary: `"The best software developer I have ever worked with, I will recommend him to anyone"`,
     },
     {
       name: "Kofi",
-      summary:
-        "The best software developer I have ever worked with, I will recommend him to anyone",
+      summary: `"The best software developer I have ever worked with, I will recommend him to anyone"`,
     },
   ];
 
@@ -22,7 +20,9 @@ function TestimonialSection() {
         {testimonies.map((testimony) => (
           <div className="testimony-box">
             <div className="tesimony-image-box">
-                <div className="testimony-image-background"></div>
+              <div className="testimony-image-background">
+                <img src="" alt="" srcset="" />
+              </div>
             </div>
             <div className="testimony-title">{testimony.name}</div>
             <div className="testimony-details-box">
