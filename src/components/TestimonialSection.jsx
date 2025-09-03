@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/TestimonialSection.css";
+import image from "../assets/images/man-image.jpeg"
 
 function TestimonialSection() {
   const testimonies = [
@@ -21,7 +22,7 @@ function TestimonialSection() {
           <div className="testimony-box">
             <div className="tesimony-image-box">
               <div className="testimony-image-background">
-                <img src="./assets/images/man-1.jpeg" alt="" srcset="" />
+                <img src={image} alt="" />
               </div>
             </div>
             <div className="testimony-title">{testimony.name}</div>

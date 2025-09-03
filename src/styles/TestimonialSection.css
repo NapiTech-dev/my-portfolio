@@ -2,7 +2,6 @@
   margin-top: 50px;
   color: white;
   position: relative;
-  height: 35vh;
 }
 
 .testmony-title {
@@ -38,11 +37,16 @@
   background-color: gray;
   border: 1px solid white;
   border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimony-image-background img {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .testimony-title {
