@@ -21,7 +21,7 @@ function TestimonialSection() {
           <div className="testimony-box">
             <div className="tesimony-image-box">
               <div className="testimony-image-background">
-                <img src="" alt="" srcset="" />
+                <img src="./assets/images/man-1.jpeg" alt="" srcset="" />
               </div>
             </div>
             <div className="testimony-title">{testimony.name}</div>
