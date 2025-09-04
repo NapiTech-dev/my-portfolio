@@ -1,6 +1,9 @@
-.box-style {
-  width: 95vw;
-  max-width: 1300px;
-  display: flex;
-  justify-content: space-between;
+/* Large devices (desktops, 1300px and up) */
+@media (min-width: 1300px) {
+  .box-style {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+  }
 }
