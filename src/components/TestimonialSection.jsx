@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/TestimonialSection.css";
-import image from "../assets/images/man-image.jpeg"
+import image from "../assets/images/man-image.jpeg";
 
 function TestimonialSection() {
   const testimonies = [
@@ -18,8 +18,8 @@ function TestimonialSection() {
     <div className="testimonial-section">
       <h2 className="testmony-title">Testimonials</h2>
       <div className="testimonies-box">
-        {testimonies.map((testimony) => (
-          <div className="testimony-box">
+        {testimonies.map((testimony, index) => (
+          <div className="testimony-box" key={index}>
             <div className="tesimony-image-box">
               <div className="testimony-image-background">
                 <img src={image} alt="" />
