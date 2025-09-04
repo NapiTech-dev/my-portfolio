@@ -1,9 +1,22 @@
-.Dashboard-styles {
-  background: rgb(0, 0, 0, 0.8);
-  backdrop-filter: blur(50px);
-  width: 70%;
-  border: px solid #919191;
-  border-radius: 60px;
-  padding: 0 50px 70px 50px;
-  overflow: hidden;
+@media (min-width: 1300px) {
+  .Dashboard-styles {
+    background: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(50px);
+    width: 70%;
+    border: px solid #919191;
+    border-radius: 60px;
+    padding: 0 50px 70px 50px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width:1000px) and (max-width:1299px) {
+  .Dashboard-styles {
+    background: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(50px);
+    border: px solid #919191;
+    border-radius: 60px;
+    padding: 0 50px 70px 50px;
+    overflow: hidden;
+  }
 }

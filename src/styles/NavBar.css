@@ -1,3 +1,8 @@
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1300px) {
+  
+}
+
 .nav-box {
   padding: 25px;
   display: flex;
