@@ -24,6 +24,7 @@
   gap: 12px;
   border: 2px solid #919191;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .tesimony-image-box {

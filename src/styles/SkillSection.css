@@ -37,6 +37,13 @@
   gap: 12px;
   border: 2px solid #919191;
   border-radius: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.skill-box:hover {
+  border-color: rgba(220, 38, 211, 0.9);
+  box-shadow: 0 0 15px 5px rgb(220, 38, 211, 0.5);
 }
 
 .icon-background {
