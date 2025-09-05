@@ -9,11 +9,12 @@
 }
 
 /* Standard desktops (1024px to 1199px) */
-@media (min-width: 1000px) and (max-width: 1299px) {
+@media (min-width: 800px) and (max-width: 1299px) {
   .box-style {
     background-color: green;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 1000px;
   }
 }
