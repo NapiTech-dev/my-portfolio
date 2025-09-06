@@ -1,0 +1,20 @@
+.memoji-box-styles{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.memoji-background {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memoji-background img {
+    height: 250px;
+}
