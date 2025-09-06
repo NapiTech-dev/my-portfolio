@@ -1,22 +1,50 @@
-.memoji-box-styles{
-    background-color: red;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0 10px 0;
+.memoji-box-styles {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 20px 0;
+  gap: 20px;
+  color: white;
 }
 
 .memoji-background {
-    background-color: rgb(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 50px;
+  background-color: rgb(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .memoji-background img {
-    height: 200px;
+  height: 190px;
+}
+
+.memo-name {
+  text-align: center;
+}
+
+.memo-name h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.memo-role {
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.memo-role p {
+  font-weight: 300;
+  font-size: 15px;
 }

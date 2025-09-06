@@ -8,6 +8,13 @@ const MemojiSection = () => {
       <div className="memoji-background">
         <img src={MemojiFace} alt="" />
       </div>
+      <div className="memo-name">
+        <h1>Feliciano Napi Ferreira</h1>
+      </div>
+      <div className="memo-role">
+        <p>Software Developer</p>
+      </div>
+      <hr />
     </div>
   );
 };
